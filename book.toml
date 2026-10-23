@@ -1,0 +1,7 @@
+[book]
+title = "Consensus Protocol Fuzzing"
+language = "en"
+src = "."
+
+[output.html]
+git-repository-url = "https://github.com/<you>/consensus-protocol-fuzzing"

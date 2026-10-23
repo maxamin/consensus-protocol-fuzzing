@@ -1,0 +1,21 @@
+# Glossary
+
+- **Safety:** nothing bad happens (no conflicting commits).
+- **Liveness:** something good eventually happens (new blocks).
+- **BFT:** Byzantine fault tolerance.
+- **Equivocation:** sending conflicting messages for the same round.
+- **DST:** deterministic simulation testing.
+- **Twins:** Byzantine emulation by duplicating node identities.
+- **Partition:** network split preventing communication between groups.
+- **TLA+:** specification language for concurrent and distributed systems.
+- **Counterexample trace:** a sequence of states produced by a model checker showing how an invariant is violated.
+- **Finality (Casper FFG):** irreversibility of a checkpoint once validators with two thirds of stake attest to it.
+- **Model-based testing:** generating tests for an implementation from traces of a formal model.
+- **Oracle:** an automatic check that decides whether a test run failed (e.g. safety or liveness).
+- **Quorum intersection:** the property that any two quorums share enough honest members to prevent conflicting decisions.
+- **Seed:** the value that initialises a simulation's random number generator, allowing exact replay.
+- **State-aware fuzzing:** generating messages that fit the receiver's current protocol state (height, round).
+- **Swarm testing:** randomising which features or fault types are enabled in each test run.
+- **TLC:** the explicit-state model checker for TLA+.
+- **Trace validation:** checking logged implementation behaviour against a formal specification.
+- **Vacuous invariant:** an invariant that holds trivially and therefore checks nothing.
